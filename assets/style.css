@@ -3,7 +3,8 @@ html{
 }
 
 body{
-  background-image: url("images/pokeballs.jpg" );
+  background-image: url("images/pokeballs.png" );
+  /* background-image: url("images/foggy_birds_@2X.png" ); */
   background-repeat:repeat;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   margin: 0;
