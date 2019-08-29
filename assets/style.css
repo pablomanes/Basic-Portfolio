@@ -1,6 +1,9 @@
+html{
+  overflow: overlay;
+}
 
 body{
-  background-image: url("images/foggy_birds_@2X.png" );
+  background-image: url("images/pokeballs.jpg" );
   background-repeat:repeat;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   margin: 0;
@@ -104,14 +107,16 @@ h2 {
 }
 
 h3 {
-    color: #4aaaa5;
-    width: 230px;
-    margin: auto;
-    padding: 20px 0;
-    border-bottom-width:2px;
-    border-bottom-style: solid;
-    border-bottom-color: lightgray;
-    margin-bottom: 20px;
+  color: #4aaaa5;
+  width: 230px;
+  margin: auto;
+  padding: 20px 0;
+  border-bottom-width:2px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
 }
 
 footer{
@@ -155,4 +160,59 @@ footer{
 }
 .footerFood{
   min-height: 115px;
+}
+
+.column1{
+  width: 290px;
+  float:left;
+}
+
+.column2{
+  width: 290px;
+  float:right;
+}
+
+.gallery{
+  width:290px;
+  height: 180px;
+  /* display:inline-block; */
+  /* float: left; */
+  margin: 0;
+  position:relative;
+}
+
+.caption{
+  margin-top:-54px;
+/* margin:0; */
+  /* display:inline-block; */
+  width: 290px;
+  text-align:center;
+  background-color:#4aaaa5;
+  color: white;
+  font-size: 20px;
+  z-index: 100;
+  margin-bottom: 40px;
+  padding:5px 0;
+  position:relative;
+}
+
+
+form > input{
+  width: 610px;
+  margin-bottom:8px;
+}
+
+form > textarea{
+  height: 200px;
+  width: 610px;
+}
+input[type=submit]{
+  background-color:#4aaaa5;
+  color: white;
+  font-size: 16px;
+  border:none;
+  margin:10px 0 0 0;
+  padding: none;
+  width: 100px;
+  height: 40px;
 }
